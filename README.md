@@ -1,0 +1,1 @@
+# rancher2_logs_collector
