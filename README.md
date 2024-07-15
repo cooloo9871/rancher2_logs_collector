@@ -5,6 +5,7 @@
 curl -LO https://github.com/cooloo9871/rancher2_logs_collector/raw/main/rancher2_logs_collector.sh
 ```
 ## Execute Script
+- collect rancher logs
 ```
 $ sudo bash rancher2_logs_collector.sh
 2024-04-26 13:28:39: Created /tmp/tmp.d57wbU6KVZ
@@ -31,3 +32,8 @@ $ sudo bash rancher2_logs_collector.sh
 2024-04-26 13:29:45: Collecting system logs from journald
 2024-04-26 13:29:46: Created /tmp/rms-2024-04-26_13_28_39.tar.gz
 ```
+- collect pod logs
+```
+$ bash pod_log_collector.sh kube-system
+```
+
