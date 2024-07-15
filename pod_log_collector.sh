@@ -11,9 +11,8 @@ EOF
 if [[ -z "$1" ]]; then
   help && exit 1
 fi
-if [[ ! -d "~/log" ]]; then
-  mkdir ~/log
-fi
+
+[[ ! -d ~/log ]] &&  mkdir log
 
 NS_LIST="$1"
 
