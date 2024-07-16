@@ -34,6 +34,9 @@ $ sudo bash rancher2_logs_collector.sh
 ```
 - collect pod logs
 ```
+$ curl -LO https://raw.githubusercontent.com/cooloo9871/rancher2_logs_collector/main/pod_log_collector.sh
+```
+```
 $ bash pod_log_collector.sh kube-system
 ```
 
